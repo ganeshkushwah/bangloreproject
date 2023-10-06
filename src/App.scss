@@ -1,0 +1,25 @@
+@import "./scss/base.scss";
+
+.App {
+  text-align: center;
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .appBg {
+    min-height: 100vh;
+    min-width: 100vw;
+    color: White;
+  }
+  h1 {
+    margin: 0px;
+    padding: 10px 0px;
+  }
+}
