@@ -1,0 +1,141 @@
+/* seedetal.css */
+
+.productdetail-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .productdetail-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .productdetail-img img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .productdetail-data {
+    margin-top: 20px;
+  }
+  
+  .productdetail-heading h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .productdetail-description p {
+    font-size: 14px;
+  }
+  
+  .productdetail-features ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .productdetail-right {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .productdetail-right h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .productdetail-right p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .price-color {
+    color: red;
+  }
+  
+  .productdetail-color h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .color-circles {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .color-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .productdetail-size h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .size-button {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .productdetail-quantity h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .quantity-button {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .productdetail-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .add-to-cart-button,
+  .favorite-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favorite-button {
+    background-color: #ff5252;
+    color: white;
+    margin-top: 10px;
+  }
+  
